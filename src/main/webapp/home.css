@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+}
+.nav{  
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.nav-logo{
+    font-size: 40px;
+}
+.nav-items{
+
+    display: flex;
+  
+}
+.nav-items ul{
+    display: flex;
+    font-size: 20px;
+
+}
+.nav-items ul li {
+    margin-top: 10px;
+    text-decoration: none;
+    padding-left: 20px;
+    list-style:none ;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    list-style:none ;
+}
+.nav-items ul li input{
+    font-size: 20px;
+}
